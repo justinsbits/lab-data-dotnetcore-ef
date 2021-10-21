@@ -39,7 +39,7 @@ namespace CommanderDA
                 new { Id = 1, HowTo = "Enable secret storage for project", CommandLine = "dotnet user-secrets init", ToolId = 1  },
                 new { Id = 2, HowTo = "Set secret for project", CommandLine = "dotnet user-secrets set \"<key>\" \"<value>\"", ToolId = 1 },
                 new { Id = 3, HowTo = "Generate default dotnet gitignore file for project", CommandLine = "dotnet new gitignore", ToolId = 1 },
-                new { Id = 3, HowTo = "Create an empty Git repository or reinitialize an existing one", CommandLine = "git init", ToolId = 3 });
+                new { Id = 4, HowTo = "Create an empty Git repository or reinitialize an existing one", CommandLine = "git init", ToolId = 3 });
         }
     }
 }
