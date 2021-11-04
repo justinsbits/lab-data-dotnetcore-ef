@@ -1,7 +1,7 @@
-﻿using CommanderDA.Entities;
+﻿using CommanderData.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CommanderDA
+namespace CommanderData
 {
     public class AppDbContext : DbContext
     {

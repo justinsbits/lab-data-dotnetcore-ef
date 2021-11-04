@@ -1,13 +1,10 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace CommanderDA.Entities
+namespace CommanderData.Entities
 {
-   public class Command
-   {
-       [Key]
-       [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-       public int Id { get; set; }
+   public class Command : BaseEntity
+    {
        [Required]
        public string HowTo { get; set; }
        [Required]
